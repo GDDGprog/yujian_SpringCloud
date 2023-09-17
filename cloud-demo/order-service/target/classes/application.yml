@@ -30,3 +30,13 @@ userservice:
   ribbon:
     NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule # 负载均衡规则(nacos集群)
 #    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule # 负载均衡规则(随机)
+#feign:
+#  client:
+#    config:
+#      default:
+#        loggerLevel: FULL
+feign:
+  httpclient:
+    enabled: true # 开启feign对HttpClient的支持
+    max-connections: 200 # 最大连接数
+    max-connections-per-route: 50 # 每个路由最大连接数
