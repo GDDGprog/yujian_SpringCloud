@@ -35,6 +35,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -45,8 +49,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
-  <component name="RunManager" selected="JUnit.HotelDocTest.testBulkRequest">
-    <configuration name="HotelDocTest.testAddDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.itcast.hotel" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HotelDemoApplication">
+    <configuration name="HotelSearchTest.testBool" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hotel-demo" />
       <extension name="coverage">
         <pattern>
@@ -55,14 +64,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.itcast.hotel" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.hotel.HotelDocTest" />
-      <option name="METHOD_NAME" value="testAddDocument" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.hotel.HotelSearchTest" />
+      <option name="METHOD_NAME" value="testBool" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HotelDocTest.testBulkRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HotelSearchTest.testHightligth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hotel-demo" />
       <extension name="coverage">
         <pattern>
@@ -71,14 +80,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.itcast.hotel" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.hotel.HotelDocTest" />
-      <option name="METHOD_NAME" value="testBulkRequest" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.hotel.HotelSearchTest" />
+      <option name="METHOD_NAME" value="testHightligth" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HotelDocTest.testDeleteDocumentById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HotelSearchTest.testMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hotel-demo" />
       <extension name="coverage">
         <pattern>
@@ -87,14 +96,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.itcast.hotel" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.hotel.HotelDocTest" />
-      <option name="METHOD_NAME" value="testDeleteDocumentById" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.hotel.HotelSearchTest" />
+      <option name="METHOD_NAME" value="testMatch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HotelDocTest.testGetDocumentById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HotelSearchTest.testMatchAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hotel-demo" />
       <extension name="coverage">
         <pattern>
@@ -103,14 +112,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.itcast.hotel" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.hotel.HotelDocTest" />
-      <option name="METHOD_NAME" value="testGetDocumentById" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.hotel.HotelSearchTest" />
+      <option name="METHOD_NAME" value="testMatchAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HotelDocTest.testUpdateDocumentById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HotelSearchTest.testPageAndSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hotel-demo" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +128,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.itcast.hotel" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.hotel.HotelDocTest" />
-      <option name="METHOD_NAME" value="testUpdateDocumentById" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.hotel.HotelSearchTest" />
+      <option name="METHOD_NAME" value="testPageAndSort" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HotelDocTest.testBulkRequest" />
-        <item itemvalue="JUnit.HotelDocTest.testGetDocumentById" />
-        <item itemvalue="JUnit.HotelDocTest.testDeleteDocumentById" />
-        <item itemvalue="JUnit.HotelDocTest.testUpdateDocumentById" />
-        <item itemvalue="JUnit.HotelDocTest.testAddDocument" />
+        <item itemvalue="JUnit.HotelSearchTest.testHightligth" />
+        <item itemvalue="JUnit.HotelSearchTest.testPageAndSort" />
+        <item itemvalue="JUnit.HotelSearchTest.testMatch" />
+        <item itemvalue="JUnit.HotelSearchTest.testBool" />
+        <item itemvalue="JUnit.HotelSearchTest.testMatchAll" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +160,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695260625864</updated>
-      <workItem from="1695260627321" duration="10680000" />
+      <workItem from="1695260627321" duration="15163000" />
+      <workItem from="1695349237975" duration="9102000" />
+      <workItem from="1695430985583" duration="6001000" />
     </task>
     <servers />
   </component>

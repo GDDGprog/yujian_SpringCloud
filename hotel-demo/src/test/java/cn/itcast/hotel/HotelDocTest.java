@@ -80,8 +80,6 @@ public class HotelDocTest {
     }
 
     //批量添加数据
-
-
     @Test
     void testBulkRequest() throws IOException {
         //批量查询酒店数据

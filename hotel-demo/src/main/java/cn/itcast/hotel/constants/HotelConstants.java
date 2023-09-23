@@ -11,7 +11,7 @@ public class HotelConstants {
             "      \"name\":{\n" +
             "        \"type\": \"text\",\n" +
             "        \"analyzer\": \"ik_max_word\",\n" +
-            "        \"copy_to\": \"{all}\"\n" +
+            "        \"copy_to\": \"all\"\n" +
             "      },\n" +
             "      \"address\":{\n" +
             "        \"type\": \"keyword\",\n" +
@@ -24,21 +24,20 @@ public class HotelConstants {
             "        \"type\": \"integer\"\n" +
             "      },\n" +
             "      \"brand\":{\n" +
-            "        \"type\": \"keyword\",\n" +
-            "        \"copy_to\": \"{all}\"\n" +
+            "        \"type\": \"text\",\n" +
+            "        \"copy_to\": \"all\"\n" +
             "      },\n" +
             "      \"city\":{\n" +
-            "        \"type\": \"keyword\",\n" +
-            "        \"copy_to\": \"{all}\"\n" +
+            "        \"type\": \"keyword\"\n" +
             "      },\n" +
             "      \"starName\":{\n" +
             "        \"type\": \"keyword\"\n" +
             "      },\n" +
             "      \"business\":{\n" +
             "        \"type\": \"keyword\",\n" +
-            "        \"copy_to\": \"{all}\"\n" +
+            "        \"copy_to\": \"all\"\n" +
             "      },\n" +
-            "      \"lcoation\":{\n" +
+            "      \"location\":{\n" +
             "        \"type\": \"geo_point\"\n" +
             "      },\n" +
             "      \"pic\":{\n" +
