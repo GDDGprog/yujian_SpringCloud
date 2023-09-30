@@ -60,6 +60,11 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.71</version>
         </dependency>
+        <!--引入amqp依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
 		<dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>

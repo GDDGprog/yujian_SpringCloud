@@ -12,10 +12,12 @@ spring:
           uri: lb://userservice # 路由目标地址
           predicates: # 路由断言,判断请求是否符合路由规则
             - Path=/user/** # 路径断言,判断请求路径是否以/user开头,如果是,则符合路由规则
-          filters:
-            - AddRequestHeader=Truth, Itcast is freaking awesome! # 添加请求头
         - id: order-service
           uri: lb://orderservice
           predicates:
             - Path=/order/**
+      default-filters:
+        - AddRequestHeader=Truth, Itcast is freaking awesome! # 添加请求头
+        - AddRequestHeader=origin,gateway # 添加请求头名为origin的请求头,值为gateway
+
 

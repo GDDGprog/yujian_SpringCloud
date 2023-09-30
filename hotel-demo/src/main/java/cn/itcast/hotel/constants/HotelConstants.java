@@ -24,7 +24,7 @@ public class HotelConstants {
             "        \"type\": \"integer\"\n" +
             "      },\n" +
             "      \"brand\":{\n" +
-            "        \"type\": \"text\",\n" +
+            "        \"type\": \"keyword\",\n" +
             "        \"copy_to\": \"all\"\n" +
             "      },\n" +
             "      \"city\":{\n" +

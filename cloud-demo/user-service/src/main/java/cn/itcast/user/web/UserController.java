@@ -48,8 +48,11 @@ public class UserController {
      */
     @GetMapping("/{id}")
     public User queryById(@PathVariable("id") Long id,
-                          @RequestHeader(value = "Truth",required = false) String truth) {
-        System.out.println("truth = " + truth);
+                          @RequestHeader(value = "Truth",required = false) String truth) throws InterruptedException {
+        if (id == 1){
+            //休眠,触发熔断
+            Thread.sleep(60);
+        }
         return userService.queryById(id);
     }
 }
